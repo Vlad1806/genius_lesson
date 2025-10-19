@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework 9</title>
+
+    <link rel="stylesheet" href="hw_9.css">
+</head>
+<body>
+
+<div class="task1">
+
+    <h3>Task 1</h3>
+    <div id="text"></div>
+    <button type="button" id="task1Btn" class="btn">Task 1</button>
+</div>
+
+
+<button type="button" id="task2Btn" class="btn">Task 2</button>
+
+
+<h3>Task 3</h3>
+<div class="task3parent">
+
+    <div class="task3Child">
+
+        <div class="task3Child" style="background-color: red; width: 20px; height: 20px;"></div>
+
+    </div>
+    <div class="task3Child"></div>
+    <div class="task3Child"></div>
+</div>
+
+
+<div class="tree">
+    <ul>
+        <li><span class="caret">Parent 1</span>
+            <ul class="nested">
+                <li>Child 1</li>
+                <li>Child 2</li>
+                <li><span class="caret">Parent 2</span>
+                    <ul class="nested">
+                        <li>Child 3</li>
+                        <li>Child 4</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><span class="caret">Parent 3</span>
+            <ul class="nested">
+                <li><span class="caret">Child 5</span>
+                    <ul class="nested">
+                        <li>Child 5.1</li>
+                        <li>Child 5.2</li>
+                    </ul>
+                </li>
+                <li>Child 6</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script src="hw_9.js"></script>
+</body>
+</html>

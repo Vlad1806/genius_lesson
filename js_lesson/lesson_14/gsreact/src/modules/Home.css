@@ -1,0 +1,18 @@
+
+.block{
+    padding: 40px;
+}
+
+.btnBlock{
+    display: flex;
+    gap: 30px;
+}
+
+.formInput{
+    display: flex;
+    padding: 10px;
+}
+
+.accText{
+    padding-left: 5px;
+}
